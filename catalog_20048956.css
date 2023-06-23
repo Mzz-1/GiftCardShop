@@ -1,0 +1,292 @@
+/*Style for root element */
+store {
+    background: rgb(213, 190, 95);
+    text-align: center;
+    line-height: 1.5;
+}
+/*Style for element store_details*/
+store_details {
+    color: whitesmoke;
+}
+
+/*Style for displaying list */
+logo,
+store_name,
+store_description {
+    display: list-item;
+}
+
+/*Style for store logo */
+logo[logo_type="store_logo"] {
+    margin-top: 30px;
+    background: url(images/shop_logo.png);
+    height: 100px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+/*Style for banner image */
+image {
+    margin-top: 40px;
+    background: url(images/giftcard.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border: 3px solid ghostwhite;
+}
+
+/*Style for store Name */
+store_name {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+/*Style for description */
+store_description {
+    white-space: pre;
+    font-size: 20px;
+}
+
+/*Style for displaying message */
+gift_cards::before {
+    content: "Shop from a variety of our gift cards:";
+    display: block;
+    margin-top: 30px;
+    font-size: 40px;
+    color: ghostwhite;
+    font-weight: 900;
+}
+
+/*Style for gift cards */
+giftcard {
+    width: 400px;
+    height: 600px;
+    background: rgb(227, 227, 227);
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    color: rgb(15, 15, 15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 15px;
+}
+
+/*Style for gift card logo */
+card_logo {
+    display: list-item;
+    list-style: none;
+}
+
+/*Displaying the items on list */
+voucher_store,
+card_name,
+card_type,
+card_category,
+description,
+price,
+discounted_price,
+balance,
+discount_voucher,
+validity,
+rating,
+no_of_users,
+release_date,
+delivery_time,
+card_code {
+    display: list-item;
+    list-style: none;
+    text-align: center;
+}
+
+card_name {
+    font-size: 23px;
+}
+
+/*Using before to display content before data */
+card_type::before {
+    content: "Card Type: ";
+}
+
+card_category::before {
+    content: "Category: ";
+}
+
+description::before {
+    content: "Description: \a";
+    white-space: pre;
+}
+
+description {
+    text-align: center;
+}
+
+price::before {
+    content: "Price: £ ";
+}
+
+/*Style to strike the price element having discount */
+price[discount_available="true"] {
+    text-decoration: line-through;
+}
+
+discounted_price::before {
+    content: "Discounted Price: £ ";
+}
+
+balance::before {
+    content: "Balance: £ ";
+}
+
+discount_voucher::before {
+    content: "Discount voucher: ";
+}
+
+validity::before {
+    content: "Validity: ";
+}
+
+rating::before {
+    content: "Rating: ";
+}
+
+release_date::before {
+    content: "Release date: ";
+}
+
+delivery_time::before {
+    content: "Delivery time: ";
+}
+
+delivery_time::after {
+    content: " days ";
+}
+
+no_of_users::before {
+    content: "Number of users: ";
+}
+
+card_code::before {
+    content: "Code: ";
+}
+
+card_code::after {
+    content: " (Activated on purchase) ";
+}
+
+month::after {
+    content: " months after purchase ";
+}
+
+/*Styles for images used in the gift card */
+card_logo {
+    height: 250px;
+    width: 400px;
+    border-radius: 14px;
+}
+
+#logo1 {
+    background: url(images/playstation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo2 {
+    background: url(images/xbox.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo3 {
+    background: url(images/itunes.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo4 {
+    background: url(images/amazon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo5 {
+    background: url(images/disney.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo6 {
+    background: url(images/valorant.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo7 {
+    background: url(images/adidas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo8 {
+    background: url(images/nike.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo9 {
+    background: url(images/converse.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Style for footer */
+footer {
+    color: whitesmoke;
+}
+
+about,
+address,
+telephone_no,
+website_address,
+email {
+    display: list-item;
+    background: rgb(24, 114, 115);
+}
+
+area::after {
+    content: ", ";
+}
+
+city::after {
+    content: ", ";
+}
+
+telephone_no::before {
+    content: "Contact: ";
+}
+
+email::before {
+    content: "E-Mail: ";
+}
+
+about {
+    margin-top: 50px;
+    font-size: 20px;
+}

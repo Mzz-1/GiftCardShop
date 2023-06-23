@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Pratham Maharjan
+20048956
+-->
+<?xml-stylesheet type="text/css" href="catalog_20048956.css"?>
+<store xsi:noNamespaceSchemaLocation="catalog_20048956.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Element that contains store details -->
+    <store_details>
+        <logo logo_type="store_logo" />
+        <store_name>The Gift Card Shop</store_name>
+        <store_description>The Gift Card Shop has hundreds of gift cards. 
+            Search by brand name, category, or neighborhood to find gift cards for businesses located in london, UK.  
+            Purchase a gift card that works at a whole category of businesses, such as any gaming, streaming or fashion.
+        </store_description>
+        &#169; The Gift Card Shop
+    </store_details>
+    <!-- Element that contains banner image -->
+    <image image_type="bannner" />
+    <!-- Element that contains the gift cards -->
+    <gift_cards>
+        <!-- Element that contains the details of the gift cards -->
+        <giftcard id="c001">
+            <card_logo id="logo1" />
+            <card_name brand="Amazon">Play Station Gift Card</card_name>
+            <card_type>Digital</card_type>
+            <card_category>Gaming</card_category>
+            <description>Google Play gift cards offer endless ways to play. Discover gift card promotions, manage gift card spending, and find where to buy online and in-store.</description>
+            <price currency="GBP" discount_available="true">55</price>
+            <discounted_price currency="GBP">40</discounted_price> <!-- optional element 1-->
+            <balance currency="GBP">50</balance> <!-- optional element 2-->
+            <validity> <!-- optional element 3-->
+                <month>12</month>
+            </validity>
+            <rating>4.5/5</rating> <!-- optional element 4-->
+            <no_of_users>56742</no_of_users> <!-- optional element 5-->
+            <card_code>ASD23g</card_code> <!-- optional element 6-->
+        </giftcard>
+
+        <giftcard id="c002">
+            <card_logo id="logo2" />
+            <card_name brand="Amazon">XBox Gift Card</card_name>
+            <card_type>Digital</card_type>
+            <card_category>Gaming</card_category>
+            <description>With an Xbox Gift Card, give the freedom to pick the gift they want. It can be used to buy the hottest new Xbox full game downloads, apps, movies, TV shows, devices, and more.</description>
+            <price currency="GBP" discount_available="true">75</price>
+            <discounted_price currency="GBP">60</discounted_price> 
+            <balance currency="GBP">70</balance>
+            <validity>
+                <month>7</month>
+            </validity>
+            <rating>4.5/5</rating>
+            <no_of_users>23142</no_of_users> 
+            <card_code>CDF45t</card_code>
+        </giftcard>
+
+        <giftcard id="c003">
+            <card_logo id="logo3" />
+            <card_name brand="Amazon">iTunes Gift Card</card_name>
+            <card_type>Digital</card_type>
+            <card_category>Streaming</card_category>
+            <description> Use iTunes gift card to make purchases in the iTunes Store. The gift code on the card lets you enter to redeem the card to put the amount in your iTunes account.</description>
+            <price currency="GBP" discount_available="true">35</price>
+            <discounted_price currency="GBP">25</discounted_price> 
+            <balance currency="GBP">30</balance>
+            <validity>
+                <month>5</month>
+            </validity>
+            <rating>4.2/5</rating> 
+            <no_of_users>14243</no_of_users>
+            <card_code>WER12q</card_code>
+        </giftcard>
+
+        <giftcard id="c004">
+            <card_logo id="logo4" />
+            <card_name brand="Amazon">Amazon Gift Card</card_name>
+            <card_type>Digital</card_type>
+            <card_category>General</card_category>
+            <description>The Amazon gift Card is helpful for people who frequently shop online. The card offers 5% back on all purchases. The card can only be used on Amazon purchases, and it has promotional no-interest financing available for big-ticket items.</description>
+            <price currency="GBP" discount_available="false">275</price>
+            <balance currency="GBP">270</balance>
+            <rating>4.15/5</rating> 
+            <no_of_users>34142</no_of_users> 
+            <card_code>GTY65h</card_code>
+        </giftcard>
+
+        <giftcard id="c005">
+            <card_logo id="logo5" />
+            <card_name brand="Amazon">Disney+ Gift Card</card_name>
+            <card_type>Digital</card_type>
+            <card_category>Streaming</card_category>
+            <description>To redeem, visit DisneyPlus.com/redeememail, select the offer, and manually enter the code printed on the card. A condition to redemption is that the holder must create a new Disney+ account. Redemption code is one-time use only, and non-transferable.</description>
+            <price currency="GBP" discount_available="true">50</price>
+            <discounted_price currency="GBP">40</discounted_price> 
+            <rating>4.75/5</rating> 
+            <no_of_users>142</no_of_users>
+            <card_code>VBF98m</card_code>
+        </giftcard>
+
+        <giftcard id="c006">
+            <card_logo id="logo6" />
+            <card_name brand="Amazon">Valorant Gift Card</card_name>
+            <card_type>Digital</card_type>
+            <card_category>Gaming</card_category>
+            <description>Valorant gift cards are a convenient way to purchase Riot's in-game currency without the need for a credit card or bank account. These cards can be redeemed by entering the card's pin code in our in-client store</description>
+            <price currency="GBP" discount_available="true">40</price>
+            <discounted_price currency="GBP">30</discounted_price> 
+            <balance currency="GBP">35</balance>
+            <no_of_users>0</no_of_users> 
+            <release_date>2022-05-03</release_date>
+            <card_code>KTH36c</card_code>
+        </giftcard>
+
+        <giftcard id="c007">
+            <card_logo id="logo7" />
+            <card_name brand="Amazon">Adidas Gift Card</card_name>
+            <card_type>Physical</card_type>
+            <card_category>Fashion</card_category>
+            <description>Adidas Gift Cards may be redeemed for merchandise on adidas.com and in adidas Sport Performance, adidas Originals, and adidas Outlet stores in the United States. No returns and no refunds on gift cards.</description>
+            <price currency="GBP" discount_available="false">120</price>
+            <discount_voucher> <!-- optional element 7-->
+                <voucher_store>Adidas Sport Performance</voucher_store>
+                <voucher_store>Adidas Originals</voucher_store>
+            </discount_voucher>
+            <validity>
+                <month>12</month>
+            </validity>
+            <delivery_time time_length="days">3</delivery_time>
+        </giftcard>
+
+        <giftcard id="c008">
+            <card_logo id="logo8" />
+            <card_name brand="Amazon">Nike Gift Card</card_name>
+            <card_type>Physical</card_type>
+            <card_category>Fashion</card_category>
+            <description>Nike gift cards can be used to make purchases on Nike.com, the Nike App, at Nike retail stores and subsidiaries.</description>
+            <price currency="GBP" discount_available="false">255</price>
+            <balance currency="GBP">250</balance>
+            <discount_voucher>
+                <voucher_store>Nike Outlets</voucher_store>
+                <voucher_store>Hurley Outlets</voucher_store>
+                <voucher_store>Umbro Outlets</voucher_store>
+            </discount_voucher>
+            <validity>
+                <month>12</month>
+            </validity>
+            <delivery_time time_length="days">3</delivery_time> <!-- optional element 8-->
+        </giftcard>
+
+        <giftcard id="c009">
+            <card_logo id="logo9" />
+            <card_name brand="Amazon">Converse Gift Card</card_name>
+            <card_type>Physical</card_type>
+            <card_category>Fashion</card_category>
+            <description>Converse gift cards are redeemable at Converse.com and Converse retail stores. Gift Card Terms and Conditions applied.</description>
+            <price currency="GBP" discount_available="true">155</price>
+            <discounted_price currency="GBP">150</discounted_price> 
+            <balance currency="GBP">150</balance>
+            <discount_voucher>
+                <voucher_store>Converse Outlets</voucher_store>
+            </discount_voucher>
+            <validity>
+                <month>12</month>
+            </validity>
+            <delivery_time time_length="days">3</delivery_time>
+        </giftcard>
+    </gift_cards>
+
+    <!-- Element that contain the about section-->
+    <footer>
+        <about>About us</about>
+        <address>
+            <area>Trafalgar Square</area>
+            <city>London</city>
+            <country>United Kingdom</country>
+        </address>
+        <telephone_no country_code="44">7911123456</telephone_no>
+        <website_address>giftcardstore.com</website_address>
+        <email>egiftshop@gmail.com</email>
+    </footer>
+
+</store>
